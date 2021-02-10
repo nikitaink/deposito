@@ -1,7 +1,13 @@
 package cuentas;
 
+/**
+ * Vamos a comprobar el estado del saldo de nuestra cuenta.
+ *
+ * @author Aguilar
+ * @version 3.0
+ * @since 3.0
+ */
 public class CCuenta {
-
 
     private String nombre;
     private String cuenta;
@@ -12,13 +18,25 @@ public class CCuenta {
     {
     }
 
+    /**
+     * Constructor que inicializa los parametros de clase de la cuenta.
+     * @param nom Nombre de la persona que solicita el saldo.
+     * @param cue Cuenta de la persona.
+     * @param sal Saldo de la cuenta.
+     */
     public CCuenta(String nom, String cue, double sal, double tipo)
     {
         nombre =nom;
         cuenta=cue;
         saldo=sal;
     }
-
+/**
+ * Implementa el estado 
+ *
+ * 
+ * @return  
+ */
+    
     public double estado()
     {
         return getSaldo();
